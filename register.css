@@ -1,0 +1,72 @@
+.register {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.reset{
+    background-color: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.7em;
+    color: #32949b;
+    font-size: 20px;
+}
+
+.login {
+    background-color: #589fce;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.clear{
+    background-color: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+fieldset{
+    background-color: rgb(248, 223, 243);
+}
+legend{
+    color: rgb(14, 9, 49);
+
+}
+
+
+
+
+.ABOUTME
+{
+    text-align: center;
+    color: #cc8a56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+}
+.Link
+{
+    text-align: center;
+    color: #cc8a56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+a:link
+{
+    color: #cc8a56; 
+    text-decoration:none;
+}
+a:visited
+{
+	color: #631F16 ; 
+} 
+a:hover
+{ 
+	color: rgb(78, 75, 56); 
+} 

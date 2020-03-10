@@ -1,0 +1,67 @@
+body{
+    background: -webkit-repeating-linear-gradient(rgb(199, 178, 168), rgb(201, 166, 137) 10%, rgb(216, 180, 146) 100%);
+  
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: rgb(99, 66, 24);
+    font-size: 400%;
+}
+div{
+    text-align: center;
+    font-family: monospace;
+    color: saddlebrown;
+}
+#pic{
+    border-radius: 10%;
+    border: 10px solid #e4cfc0;
+    width: 60%;
+}
+
+.ABOUTME
+{
+    text-align: center;
+    color: #cc8a56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+}
+.Link
+{
+    text-align: center;
+    color: #cc8a56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+a:link
+{
+    color: #cc8a56; 
+    text-decoration:none;
+}
+a:visited
+{
+	color: #631F16 ; 
+} 
+a:hover
+{ 
+	color: rgb(78, 75, 56); 
+} 
+/*
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+     }
+
+.grid-container > div{
+      font-size: 30px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 2%;
+}
+
+#container
+{
+    grid-column: 2 /span3;
+}
+*/

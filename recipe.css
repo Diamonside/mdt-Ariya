@@ -1,0 +1,228 @@
+body{
+    background-color: wheat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1{
+   color: teal;
+   font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+}
+span{
+    background-color: tan;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    
+    height: 5px;
+    color: chocolate;
+    background-color: tan;
+    border: crimson;
+}
+#img_recipe{
+    padding-top: 30px;
+    border-radius: 10%;
+    width: 50%;
+}
+div{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: teal;
+}
+
+h2{
+    color: teal;
+    background-color: tan;
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 30px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+h3{
+    color: teal;
+    background-color: tan;
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 30px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flex_container{
+
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex_container > div{
+    border: 10px dotted tan;
+    border-radius: 20%;
+    width: 400%;
+    margin: auto;
+}
+.flex_container > div>img{
+    border-radius: 20%;
+    width: 100%;
+}
+
+
+
+p{
+ width: 70%;
+font-size: 20px;
+font-family: monospace;
+
+margin: auto;
+ 
+padding-left: 30px;
+padding-bottom: 10px;
+}
+
+
+.menu{
+    background-color: tan;
+    font-size: 85%;
+}
+.re{
+    background-color: tan;
+  font-size: 85%;
+}
+
+
+
+
+
+.ABOUTME
+{
+    text-align: center;
+    color: #cc8a56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+}
+.Link
+{
+    text-align: center;
+    color: #cc8a56;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+a:link
+{
+    color: #cc8a56; 
+    text-decoration:none;
+}
+a:visited
+{
+	color: #631F16 ; 
+} 
+a:hover
+{ 
+	color: rgb(78, 75, 56); 
+} 
+
+
+
+
+
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 20px;
+   
+    }
+
+.grid-container > div{
+  
+    font-size: 30px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+#header{
+    grid-column: 1 /span 3;
+}
+
+#menu{
+    grid-column: 1 /span 1;
+}
+
+#main{
+    grid-column: 2/span 1;
+}
+#right{
+    grid-column: 3 /span 1;
+}
+
+#footer{
+    grid-column: 1 /span 3;
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 30%;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 /span 2;
+    }
+    
+    #menu{
+        grid-column: 1 /span 2;
+        text-align: left;
+    }
+    
+    #main{
+        grid-column: 1/span 1;
+    }
+    #right{
+        grid-column: 2 /span 1;
+    }
+    
+    #footer{
+        grid-column: 1 /span 2;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 /span 1;
+    }
+    
+    #menu{
+        grid-column: 1 /span 1;
+    }
+    
+    #main{
+        grid-column: 1/span 1;
+    }
+    #right{
+        grid-column: 1 /span 1;
+    }
+    
+    #footer{
+        grid-column: 1 /span 1;
+    }
+}
+
+
